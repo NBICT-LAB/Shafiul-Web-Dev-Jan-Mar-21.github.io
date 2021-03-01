@@ -20,7 +20,7 @@ console.log(typeof(x));
 console.log(typeof(population));
 console.log(typeof(isIsland));
 console.log(typeof(language));
-
+console.log('Problem Solved.');
 
 
 
