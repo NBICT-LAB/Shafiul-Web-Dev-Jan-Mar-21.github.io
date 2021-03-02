@@ -22,5 +22,8 @@ console.log(typeof(isIsland));
 console.log(typeof(language));
 console.log('Problem Solved.');
 
-
+const myFirstName = 'Shafiul';
+const myLastName = 'Alam';
+const myFullName = myFirstName + ' ' + myLastName;
+console.log(myFullName);
 
