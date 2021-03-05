@@ -20,9 +20,10 @@ console.log(typeof(x));
 console.log(typeof(population));
 console.log(typeof(isIsland));
 console.log(typeof(language));
+<<<<<<< HEAD
 const myName = 'Shafiul';
 console.log(myName);*/
-const country = 'bangladesh';
+/*const country = 'bangladesh';
 const population = 160;
 const continent = 'Asia';
 console.log(country,population,continent);
@@ -54,9 +55,23 @@ if(population>averagePop){
 }
 
 let AkkasAge = 21;
-let ShuvoAge = 23;
-if(ShuvoAge>AkkasAge){
+let ShuvoAge = 23;*/
+/*if(ShuvoAge>AkkasAge){
     console.log(`Shuvo's age is greater than Akkas's age.`);
 }else{
     console.log(`Akkas's age is greater than Shuvo's age.`);
+}*/
+
+const age = 17;
+let year;
+
+
+if(age>=18){
+    console.log(`Sara is eligible for licence.`);
+}else{
+     year = 18 - age;
+    console.log(`Sara is not eligible for licence.`);
 }
+
+console.log(` She have to wait another ${year} year.`);
+
