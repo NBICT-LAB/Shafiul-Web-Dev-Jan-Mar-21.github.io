@@ -60,7 +60,7 @@ let ShuvoAge = 23;*/
     console.log(`Shuvo's age is greater than Akkas's age.`);
 }else{
     console.log(`Akkas's age is greater than Shuvo's age.`);
-}*/
+}
 
 const age = 17;
 let year;
@@ -73,5 +73,25 @@ if(age>=18){
     console.log(`Sara is not eligible for licence.`);
 }
 
-console.log(` She have to wait another ${year} year.`);
+console.log(` She have to wait another ${year} year.`);*/
 
+const markMass = 78 ;
+const markHeight = 1.69;
+const markBmi = markMass / (markHeight * markHeight);
+
+
+const johnMass = 92;
+const johnHeight = 1.95;
+const johnBmi = johnMass / (johnHeight * johnHeight);
+
+console.log(markBmi);
+console.log(johnBmi);
+
+
+if(markBmi > johnBmi) {
+    console.log(`Mark's BMI is higher than johns's!`);
+}else{
+    console.log(`Jon's BMI is higher than Mark's's!`);
+}
+
+console.log(`Mark bmi ${markBmi} is heigher than John bmi ${johnBmi}`)
