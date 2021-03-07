@@ -94,4 +94,22 @@ if(markBmi > johnBmi) {
     console.log(`Jon's BMI is higher than Mark's's!`);
 }
 
-console.log(`Mark bmi ${markBmi} is heigher than John bmi ${johnBmi}`)
+console.log(`Mark bmi ${markBmi} is heigher than John bmi ${johnBmi}.`);
+
+//Practice in home..
+
+const SaidurWeight =60;
+const SaifulWeight = 54;
+
+if(SaidurWeight>SaifulWeight){
+    console.log(`Saidur's weight is greater than Saiful's weight.`);
+}else{
+    console.log(`Saiful's weight is greater than Saidur's weight.`);
+}
+
+
+if(SaidurWeight>SaifulWeight){
+    console.log(`Saidur's weight ${SaidurWeight} is greater than Saiful's weight ${SaifulWeight}.`);
+}else{
+    console.log(`Saiful's weight ${SaifulWeight} is greater than Saidur's weigh ${SaidurWeight}.`);
+}
